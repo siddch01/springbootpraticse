@@ -14,5 +14,8 @@ spring:
   h2:
     console:
       enabled: true
-
+management:
+  endpoint:
+    shutdown:
+      enabled: true
 
